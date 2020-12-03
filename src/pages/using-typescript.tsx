@@ -4,8 +4,8 @@
 import { FC } from 'react'
 import { Link, PageProps, graphql } from 'gatsby'
 
-import Layout from '../components/layout'
-import Seo from '../components/seo'
+import Layout from '@/components/layout'
+import Seo from '@/components/seo'
 
 type DataProps = {
   site: {

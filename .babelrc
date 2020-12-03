@@ -1,6 +1,11 @@
 {
   "plugins": [
-    "react-require"
+    "react-require",
+    ["module-resolver", {
+      "alias": {
+        "@": "./src"
+      }
+    }]
   ],
   "presets": [
     [
