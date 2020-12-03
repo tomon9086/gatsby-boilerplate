@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "react-require"
+  ],
+  "presets": [
+    [
+      "gatsby",
+      {
+        "targets": {}
+      }
+    ]
+  ]
+}
